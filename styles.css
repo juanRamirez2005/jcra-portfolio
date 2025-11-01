@@ -1021,3 +1021,8 @@ body {
     padding: var(--spacing-lg);
   }
 }
+
+img {
+  height: 20px;
+  width: 20px;
+}
