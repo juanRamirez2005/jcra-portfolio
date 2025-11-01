@@ -1,0 +1,138 @@
+{
+  "name": "Juan Camilo Ramírez Arias - Portfolio",
+  "short_name": "JC Portfolio",
+  "description": "Portfolio profesional de Juan Camilo Ramírez Arias, desarrollador de software especializado en HTML5, JavaScript, Java y SQL Server",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": [
+    "portfolio",
+    "developer",
+    "software",
+    "programming",
+    "web-development"
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Portfolio de Juan Camilo Ramírez - Vista Desktop"
+    },
+    {
+      "src": "/assets/screenshot-mobile.png", 
+      "sizes": "360x800",
+      "type": "image/png", 
+      "form_factor": "narrow",
+      "label": "Portfolio de Juan Camilo Ramírez - Vista Mobile"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/assets/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icon-96x96.png",
+      "sizes": "96x96", 
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Sobre Mí",
+      "short_name": "About",
+      "description": "Conoce más sobre Juan Camilo Ramírez Arias",
+      "url": "/#sobre-mi",
+      "icons": [
+        {
+          "src": "/assets/shortcut-about.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Habilidades",
+      "short_name": "Skills", 
+      "description": "Tecnologías y habilidades técnicas",
+      "url": "/#habilidades",
+      "icons": [
+        {
+          "src": "/assets/shortcut-skills.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contacto",
+      "short_name": "Contact",
+      "description": "Información de contacto y formulario",
+      "url": "/#contacto", 
+      "icons": [
+        {
+          "src": "/assets/shortcut-contact.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://juancamiloramirez.dev"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}

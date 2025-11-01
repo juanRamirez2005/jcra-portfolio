@@ -1,0 +1,86 @@
+{
+  "name": "juan-camilo-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio profesional de Juan Camilo Ramírez Arias - Desarrollador de Software especializado en HTML5, JavaScript, Java y SQL Server",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "tsc -w & live-server --port=3000 --host=localhost --open=/",
+    "start": "live-server --port=3000 --host=localhost --open=/",
+    "lint": "eslint main.ts --ext .ts",
+    "format": "prettier --write *.ts *.html *.css",
+    "validate-html": "html-validate index.html",
+    "optimize": "npm run build && npm run minify",
+    "minify": "terser dist/main.js -o main.js --compress --mangle",
+    "test": "echo \"No tests specified\" && exit 0",
+    "deploy": "npm run build && npm run optimize",
+    "serve": "python -m http.server 8000",
+    "clean": "rimraf dist main.js main.js.map"
+  },
+  "keywords": [
+    "portfolio",
+    "desarrollador",
+    "software",
+    "html5",
+    "css3",
+    "javascript",
+    "typescript",
+    "java",
+    "sql-server",
+    "juan-camilo-ramirez",
+    "ingenieria-software",
+    "optiplant-consultores",
+    "seo",
+    "responsive",
+    "web-development"
+  ],
+  "author": {
+    "name": "Juan Camilo Ramírez Arias",
+    "email": "contacto@juancamiloramirez.dev",
+    "url": "https://juancamiloramirez.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juancamiloramirez/portfolio.git"
+  },
+  "homepage": "https://juancamiloramirez.dev",
+  "bugs": {
+    "url": "https://github.com/juancamiloramirez/portfolio/issues",
+    "email": "contacto@juancamiloramirez.dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.0",
+    "eslint": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "prettier": "^3.0.3",
+    "html-validate": "^8.5.0",
+    "live-server": "^1.2.2",
+    "terser": "^5.20.0",
+    "rimraf": "^5.0.5"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "private": false,
+  "sideEffects": false,
+  "funding": {
+    "type": "individual",
+    "url": "https://juancamiloramirez.dev/#contacto"
+  },
+  "config": {
+    "port": 3000,
+    "host": "localhost"
+  }
+}

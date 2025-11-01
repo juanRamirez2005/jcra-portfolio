@@ -1,0 +1,82 @@
+# Robots.txt para juancamiloramirez.dev
+# Configuración optimizada para SEO del portfolio de Juan Camilo Ramírez Arias
+
+User-agent: *
+Allow: /
+
+# Permitir acceso a recursos críticos
+Allow: /styles.css
+Allow: /main.js
+Allow: /assets/
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.ico
+Allow: /favicon.ico
+Allow: /site.webmanifest
+
+# Bloquear archivos de desarrollo y configuración
+Disallow: /main.ts
+Disallow: /tsconfig.json
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /dist/
+Disallow: /*.log
+Disallow: /*.tmp
+Disallow: /.env
+Disallow: /.gitignore
+
+# Sitemap
+Sitemap: https://juancamiloramirez.dev/sitemap.xml
+
+# Crawl-delay para ser respetuoso con los servidores
+Crawl-delay: 1
+
+# Configuración específica para Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Configuración para Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Configuración para Facebook Bot (Open Graph)
+User-agent: facebookexternalhit
+Allow: /
+
+# Configuración para Twitter Bot (Twitter Cards)
+User-agent: Twitterbot
+Allow: /
+
+# Configuración para LinkedIn Bot
+User-agent: LinkedInBot
+Allow: /
+
+# Bloquear bots maliciosos comunes
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Información adicional del sitio
+# Este es el portfolio profesional de Juan Camilo Ramírez Arias
+# Desarrollador de Software especializado en HTML5, CSS3, JavaScript, Java y SQL Server
+# Estudiante de Ingeniería en Software en Colombia
+# Trabajando actualmente en Optiplant Consultores
